@@ -1,0 +1,9 @@
+--dll qse-base64
+--project-base=quantum-script-extension-base64
+--source-is-separate
+--dll-no-version
+--use-project=quantum-script
+--use-project=qse-buffer
+--install-dev
+--install-inc=quantum-script-extension
+--no-version
