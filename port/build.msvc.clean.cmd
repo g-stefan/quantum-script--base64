@@ -3,7 +3,7 @@ rem Public domain
 rem http://unlicense.org/
 rem Created by Grigore Stefan <g_stefan@yahoo.com>
 
-echo -^> clean quantum-script-extension-base32
+echo -^> clean quantum-script-extension-base64
 
 if exist bin\ rmdir /Q /S bin
 if exist build\ rmdir /Q /S build

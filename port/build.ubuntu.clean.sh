@@ -3,7 +3,7 @@
 # http://unlicense.org/
 # Created by Grigore Stefan <g_stefan@yahoo.com>
 
-echo "-> clean quantum-script-extension-base32"
+echo "-> clean quantum-script-extension-base64"
 
 rm -rf bin
 rm -rf build
