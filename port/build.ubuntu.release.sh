@@ -3,11 +3,11 @@
 # http://unlicense.org/
 # Created by Grigore Stefan <g_stefan@yahoo.com>
 
-echo "-> local-release quantum-script-extension-base64"
+echo "-> release quantum-script-extension-base64"
 
 cmdX(){
 	if ! "$@" ; then
-		echo "Error: local-release"
+		echo "Error: release"
 		exit 1
 	fi
 }
