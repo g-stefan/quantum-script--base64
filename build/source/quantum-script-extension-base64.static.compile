@@ -1,7 +1,0 @@
---lib qse-base64
---project-base=quantum-script-extension-base64
---build-include
---use-project=quantum-script.static
---use-project=qse-buffer.static
---install-dev
---install-inc=quantum-script-extension
