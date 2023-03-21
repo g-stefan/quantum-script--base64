@@ -47,7 +47,7 @@ namespace XYO::QuantumScript::Extension::Base64 {
 
 	void initExecutive(Executive *executive, void *extensionId) {
 		String info = "Base64\r\n";
-		info << License::shortLicense();
+		info << License::shortLicense().c_str();
 
 		executive->setExtensionName(extensionId, "Base64");
 		executive->setExtensionInfo(extensionId, info);
