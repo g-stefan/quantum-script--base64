@@ -64,7 +64,7 @@ namespace XYO::QuantumScript::Extension::Base64 {
 
 };
 
-#ifdef XYO_COMPILE_DYNAMIC_LIBRARY
+#ifdef XYO_PLATFORM_COMPILE_DYNAMIC_LIBRARY
 extern "C" XYO_QUANTUMSCRIPT_EXTENSION_BASE64_EXPORT void quantumScriptExtension(XYO::QuantumScript::Executive *executive, void *extensionId) {
 	XYO::QuantumScript::Extension::Base64::initExecutive(executive, extensionId);
 };
